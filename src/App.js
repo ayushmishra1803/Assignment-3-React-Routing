@@ -8,8 +8,21 @@ function App() {
 	return (
 		<div className="App">
 			<nav>
-				<NavLink to="/user">User </NavLink>
-				<NavLink to="/courses">Courses</NavLink>
+				<NavLink
+					to="/user"
+					className="NavLink"
+					activeStyle={{ color: "orange" }}
+				>
+					User{" "}
+				</NavLink>
+				|&nbsp;&nbsp;
+				<NavLink
+					to="/courses"
+					className="NavLink"
+					activeStyle={{ color: "orange" }}
+				>
+					Courses
+				</NavLink>
 			</nav>
 			<Route path="/user" component={User} />
 			<Route path="/courses" component={Courses} />
