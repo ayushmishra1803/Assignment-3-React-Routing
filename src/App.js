@@ -25,7 +25,7 @@ function App() {
 				</NavLink>
 			</nav>
 			<Route path="/user" component={User} />
-			<Route path="/courses" component={Courses} />
+			<Route path="/courses"  component={Courses} />
 		</div>
 	);
 }
