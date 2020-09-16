@@ -12,7 +12,7 @@ class Course extends Component {
 		const title = this.props.match.params.title;
 		return (
 			<div>
-				<h1>_COURSE_TITLE_={title}</h1>
+				<h1>_COURSE_TITLE_:{title}</h1>
 				<p>You selected the Course with ID: {id} </p>
 			</div>
 		);
